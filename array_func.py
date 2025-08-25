@@ -4,7 +4,7 @@ arr=np.linspace(0,10,num=4)
 print(arr)
 #[ 0.          3.33333333  6.66666667 10.        ]
 #diagonal arraY
-
+#
 
 arr=np.eye(3,5)
 
