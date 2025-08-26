@@ -19,5 +19,17 @@ new_add=np.add(arr,arr2)#similar subrtact,multiply,divide,mod,power,reciprocal
 print(new_add)
 
 #[ 6  9 12 15]
+#2D Matrix
+
+first=np.array([[1,2,3],[4,5,6]])
+second=np.array([[1,2,3],[4,5,6]])
+
+addition_2D=first+second
+print(first+second)
 
 
+reciprocal=np.reciprocal(first)
+print(reciprocal)
+
+#[[1 0 0]
+# [0 0 0]]
