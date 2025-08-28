@@ -12,7 +12,6 @@ for i in np.nditer(arr):
 #5
 #6
 
-
 for i in np.nditer(arr,flags=['buffered'],op_dtypes='S'):
     print(i)
 
@@ -23,7 +22,6 @@ for i in np.nditer(arr,flags=['buffered'],op_dtypes='S'):
 #b'5'
 #b'6'
 
-
 for i,d in np.ndenumerate(arr):
     print(i,d)
 
@@ -33,3 +31,4 @@ for i,d in np.ndenumerate(arr):
 #(0, 1, 0) 4
 #(0, 1, 1) 5
 #(0, 1, 2) 6
+
