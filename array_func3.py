@@ -22,8 +22,28 @@ print(np.resize(arr3,(2,3)))
 #[[1 2 3]
 # [4 5 1]]
 
-print(np.resize(arr3,(3,2)))
-
+z=np.resize(arr3,(3,2))
+print(z)
 #[[1 2]
 # [3 4]
 # [5 6]]
+
+w=z.flatten()
+print(w)
+
+#[1 2 3 4 5 6]
+
+w=z.flatten(order='F')#C,F,A,K for both flatten and ravel
+print(w)
+
+#[1 3 5 2 4 6]
+
+w=np.ravel(z)
+print(w)
+
+#[1 2 3 4 5 6]
+
+w=np.ravel(z,order='F')
+print(w)
+
+#[1 3 5 2 4 6]
